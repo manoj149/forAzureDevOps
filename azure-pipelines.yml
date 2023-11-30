@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool: 
-  name: default azureDevOpslocal
+  name: default
 
 #pool:
   #vmImage: ubuntu-latest
