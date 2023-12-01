@@ -6,11 +6,11 @@
 trigger:
 - master
 
-pool: 
-  name: default:azureDevOpslocal
+#pool: 
+  #name: default:azureDevOpslocal
 
-#pool:
-  #vmImage: ubuntu-latest
+pool:
+  vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
